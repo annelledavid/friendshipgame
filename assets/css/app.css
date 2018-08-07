@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One:400,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body, html {
+	margin: 0;
+	height: 100%;
+	font-family: 'Poiret One', sans-serif;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+h1 {
+    color: #0084ff
+}
+
+button {
+	border: none;
+	color: white;
+	padding: 10px;
+    border-radius: 30px;
+    font-family: 'Poiret One'
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    text-align: center;
+}
+
+.spinner {
+    margin: 50% auto;
+}
+
+.home_link, .home_link_text {
+    margin-left: 2%;
+    padding-left: 11;
+    color: #0084ff;
+}
