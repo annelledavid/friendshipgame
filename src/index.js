@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { store } from './store/store'
+import { store } from './store'
 import router from './router/router'
 import '../assets/css/app.css'
 import '../assets/css/Animate.css'
